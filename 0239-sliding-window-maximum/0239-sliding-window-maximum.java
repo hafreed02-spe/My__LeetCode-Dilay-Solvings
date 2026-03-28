@@ -7,30 +7,31 @@ class Solution {
         int index=-1;
         int ind=0;
         int fmax=Integer.MIN_VALUE;
-        int smax=Integer.MIN_VALUE;
         while(j<n)
         {
             if(nums[j]>fmax)
             {
-                smax=fmax;
                 fmax=nums[j];
                 index=j;
             }
-            else if(nums[j]>smax&&nums[j]!=fmax)
+            if(j-i+1==k)
             {
-                smax=nums[j];
+                arr[ind++]=fmax;
+                if(index==i)
+                {
+                    fmax=Integer.MIN_VALUE;
+                    for(int l=i+1;l<=j;l++)
+                    {
+                        if(nums[l]>fmax)
+                        {
+                            fmax=nums[l];
+                            index=l;
+                        }
+                    }  
+                }
+                i++;
             }
-           
-           if(j-i+1==k)
-           {
-              arr[ind++]=fmax;
-              if(i==index)
-              {
-                fmax=smax;
-              }
-              i++;
-           }
-           j++;
+            j++;
 
         }
         return arr;
