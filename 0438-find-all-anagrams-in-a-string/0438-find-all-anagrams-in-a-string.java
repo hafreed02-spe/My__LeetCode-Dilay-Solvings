@@ -10,26 +10,32 @@ class Solution {
         {
             map.put(ch,map.getOrDefault(ch,0)+1);
         }
-        Map<Character,Integer> map1=new HashMap<>();
+        int count=map.size();
         while(j<n)
         {
-            map1.put(s.charAt(j),map1.getOrDefault(s.charAt(j),0)+1);
-            if(j-i+1==k)
-            {
-                if(map.equals(map1))
-                list.add(i);
-                char ch=s.charAt(i);
-                if(map1.containsKey(ch))
-                {
-                    int freq=map1.get(ch)-1;
-                    if(freq==0)
-                    map1.remove(ch);
-                    else
-                    map1.put(ch,freq);
-                }
-                i++;
-            }
-            j++;
+           char ch=s.charAt(j);
+           if(map.containsKey(ch))
+           {
+            int freq=map.get(ch)-1;
+            map.put(ch,freq);
+            if(freq==0)
+            count--;
+           }
+           if(j-i+1==k)
+           {
+             if(count==0)
+             list.add(i);
+             char ch1=s.charAt(i);
+           if(map.containsKey(ch1))
+           {
+            map.put(ch1,map.get(ch1)+1);
+            if(map.get(ch1)==1)
+            count++;
+           }
+           i++;
+           }
+           j++;
+           
         }
         return list;
     }
