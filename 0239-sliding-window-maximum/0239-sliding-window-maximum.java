@@ -4,17 +4,34 @@ class Solution {
         int[] arr=new int[n-k+1];
         int i=0;
         int j=0;
-        int index=0;
-        int max=Integer.MIN_VALUE;
+        int index=-1;
+        int ind=0;
+        int fmax=Integer.MIN_VALUE;
+        int smax=Integer.MIN_VALUE;
         while(j<n)
         {
-            max=Math.max(max,nums[j]);
-            if(j-i+1==k)
+            if(nums[j]>fmax)
             {
-            arr[index++]=max;
-            i++;
+                smax=fmax;
+                fmax=nums[j];
+                index=j;
             }
-            j++;
+            else if(nums[j]>smax&&nums[j]!=fmax)
+            {
+                smax=nums[j];
+            }
+           
+           if(j-i+1==k)
+           {
+              arr[ind++]=fmax;
+              if(i==index)
+              {
+                fmax=smax;
+              }
+              i++;
+           }
+           j++;
+
         }
         return arr;
     }
