@@ -57,4 +57,12 @@ The goal is to build consistency, improve logic, and prepare for coding intervie
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0239-sliding-window-maximum](https://github.com/hafreed02-spe/LeetCode-Questions/tree/main/0239-sliding-window-maximum/) | Hard |
+## String
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0657-robot-return-to-origin](https://github.com/hafreed02-spe/LeetCode-Questions/tree/main/0657-robot-return-to-origin/) | Easy |
+## Simulation
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0657-robot-return-to-origin](https://github.com/hafreed02-spe/LeetCode-Questions/tree/main/0657-robot-return-to-origin/) | Easy |
 <!---LeetCode Topics End-->
