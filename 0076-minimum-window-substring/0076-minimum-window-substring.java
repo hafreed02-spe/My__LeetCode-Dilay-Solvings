@@ -17,7 +17,7 @@ class Solution {
         while (right < s.length()) {
             char ch = s.charAt(right);
 
-            // acquire
+    
             if (map.containsKey(ch)) {
                 map.put(ch, map.get(ch) - 1);
 
