@@ -43,6 +43,7 @@ The goal is to build consistency, improve logic, and prepare for coding intervie
 ## Sliding Window
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0076-minimum-window-substring](https://github.com/hafreed02-spe/LeetCode-Questions/tree/main/0076-minimum-window-substring/) | Hard |
 | [0239-sliding-window-maximum](https://github.com/hafreed02-spe/LeetCode-Questions/tree/main/0239-sliding-window-maximum/) | Hard |
 | [3191-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/hafreed02-spe/LeetCode-Questions/tree/main/3191-minimum-operations-to-make-binary-array-elements-equal-to-one-i/) | Medium |
 ## Prefix Sum
@@ -60,9 +61,14 @@ The goal is to build consistency, improve logic, and prepare for coding intervie
 ## String
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0076-minimum-window-substring](https://github.com/hafreed02-spe/LeetCode-Questions/tree/main/0076-minimum-window-substring/) | Hard |
 | [0657-robot-return-to-origin](https://github.com/hafreed02-spe/LeetCode-Questions/tree/main/0657-robot-return-to-origin/) | Easy |
 ## Simulation
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0657-robot-return-to-origin](https://github.com/hafreed02-spe/LeetCode-Questions/tree/main/0657-robot-return-to-origin/) | Easy |
+## Hash Table
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0076-minimum-window-substring](https://github.com/hafreed02-spe/LeetCode-Questions/tree/main/0076-minimum-window-substring/) | Hard |
 <!---LeetCode Topics End-->
