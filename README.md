@@ -67,6 +67,7 @@ The goal is to build consistency, improve logic, and prepare for coding intervie
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0076-minimum-window-substring](https://github.com/hafreed02-spe/LeetCode-Questions/tree/main/0076-minimum-window-substring/) | Hard |
+| [0125-valid-palindrome](https://github.com/hafreed02-spe/LeetCode-Questions/tree/main/0125-valid-palindrome/) | Easy |
 | [0345-reverse-vowels-of-a-string](https://github.com/hafreed02-spe/LeetCode-Questions/tree/main/0345-reverse-vowels-of-a-string/) | Easy |
 | [0557-reverse-words-in-a-string-iii](https://github.com/hafreed02-spe/LeetCode-Questions/tree/main/0557-reverse-words-in-a-string-iii/) | Easy |
 | [0657-robot-return-to-origin](https://github.com/hafreed02-spe/LeetCode-Questions/tree/main/0657-robot-return-to-origin/) | Easy |
@@ -82,6 +83,7 @@ The goal is to build consistency, improve logic, and prepare for coding intervie
 ## Two Pointers
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0125-valid-palindrome](https://github.com/hafreed02-spe/LeetCode-Questions/tree/main/0125-valid-palindrome/) | Easy |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/hafreed02-spe/LeetCode-Questions/tree/main/0167-two-sum-ii-input-array-is-sorted/) | Medium |
 | [0345-reverse-vowels-of-a-string](https://github.com/hafreed02-spe/LeetCode-Questions/tree/main/0345-reverse-vowels-of-a-string/) | Easy |
 | [0557-reverse-words-in-a-string-iii](https://github.com/hafreed02-spe/LeetCode-Questions/tree/main/0557-reverse-words-in-a-string-iii/) | Easy |
