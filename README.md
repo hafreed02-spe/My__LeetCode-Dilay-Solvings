@@ -71,6 +71,7 @@ The goal is to build consistency, improve logic, and prepare for coding intervie
 | [0345-reverse-vowels-of-a-string](https://github.com/hafreed02-spe/LeetCode-Questions/tree/main/0345-reverse-vowels-of-a-string/) | Easy |
 | [0557-reverse-words-in-a-string-iii](https://github.com/hafreed02-spe/LeetCode-Questions/tree/main/0557-reverse-words-in-a-string-iii/) | Easy |
 | [0657-robot-return-to-origin](https://github.com/hafreed02-spe/LeetCode-Questions/tree/main/0657-robot-return-to-origin/) | Easy |
+| [0680-valid-palindrome-ii](https://github.com/hafreed02-spe/LeetCode-Questions/tree/main/0680-valid-palindrome-ii/) | Easy |
 ## Simulation
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -87,9 +88,14 @@ The goal is to build consistency, improve logic, and prepare for coding intervie
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/hafreed02-spe/LeetCode-Questions/tree/main/0167-two-sum-ii-input-array-is-sorted/) | Medium |
 | [0345-reverse-vowels-of-a-string](https://github.com/hafreed02-spe/LeetCode-Questions/tree/main/0345-reverse-vowels-of-a-string/) | Easy |
 | [0557-reverse-words-in-a-string-iii](https://github.com/hafreed02-spe/LeetCode-Questions/tree/main/0557-reverse-words-in-a-string-iii/) | Easy |
+| [0680-valid-palindrome-ii](https://github.com/hafreed02-spe/LeetCode-Questions/tree/main/0680-valid-palindrome-ii/) | Easy |
 ## Binary Search
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/hafreed02-spe/LeetCode-Questions/tree/main/0167-two-sum-ii-input-array-is-sorted/) | Medium |
 | [0713-subarray-product-less-than-k](https://github.com/hafreed02-spe/LeetCode-Questions/tree/main/0713-subarray-product-less-than-k/) | Medium |
+## Greedy
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0680-valid-palindrome-ii](https://github.com/hafreed02-spe/LeetCode-Questions/tree/main/0680-valid-palindrome-ii/) | Easy |
 <!---LeetCode Topics End-->
