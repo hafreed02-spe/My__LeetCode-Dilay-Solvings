@@ -7,8 +7,6 @@ class Solution {
         int j=0;
        while(i<n&&j<m)
        {
-        if(i<=j)
-        {
             if(nums1[i]<=nums2[j])
             {
                 max=Math.max(max,Math.abs(i-j));
@@ -18,11 +16,7 @@ class Solution {
             {
                 i++;
             }
-        }
-        else
-        {
-            j=i;
-        }
+        
        }
         return max;
     }
